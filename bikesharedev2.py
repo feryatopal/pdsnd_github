@@ -35,7 +35,7 @@ def get_filters():
     while True:
       month = input("\nWhich month would you like to filter by? January, February, March, April, May, June or type 'all' if you do not have any preference?\n")
       if month.title() not in ('January', 'February', 'March', 'April', 'May', 'June', 'all'):
-        print("Sorry, I didn't catch that. Try again.")
+        print("Sorry,could you please try another month?")
         continue
       else:
         break
@@ -45,7 +45,7 @@ def get_filters():
     while True:
       day = input("\nAre you looking for a particular day? If so, kindly enter the day as follows: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or type 'all' if you do not have any preference.\n")
       if day.title() not in ('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'all'):
-        print("Sorry, I didn't catch that. Try again.")
+        print("Could you please try another day?")
         continue
       else:
         break
